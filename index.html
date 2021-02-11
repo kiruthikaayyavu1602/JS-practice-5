@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Registeration form</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/ko.js" defer="defer"></script>
+
+</head>
+<body>
+<div class="container">
+
+<form name="myForm">
+  <p>
+  FIRST NAME: <input type="text" id="fname" name="fname">
+  </p><br>
+  
+  <p>
+  LAST NAME: <input type="text" id="lname" name="lname">
+  </p><br>
+
+  <p>
+    DATE OF BIRTH: <input type="date" id="dob" name="birthday">
+    </p><br>
+
+    <p>
+        EMAIL ID: <input type="Email" id="email" name="email">
+        </p><br>
+        
+        <p>
+        MOBILE NUMBER: <input type="Number" id="number" name="number">
+        </p><br>
+  
+        <p>
+        GENDER:
+        <input type="radio" class="gender" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" class="gender" name="gender" value="female">
+        <label for="female">Female</label><br>
+        </p><br>
+  
+        <p>
+        ADDRESS: <textarea class="form-control" rows="5" id="comment" style="width:40%;"></textarea>
+        </p><br>
+
+        <p>
+       CITY NAME: <input type="text" id="cityname" name="cityname">
+        </p><br>
+
+        <p>
+       ZIP CODE: <input type="Number" id="zipcode" name="zipcode">
+        </p><br>
+
+        <label for="states">STATE:</label>
+        <select name="state" id="state">
+        <option value="texas">TEXAS</option>
+        <option value="florida">FLORIDA</option>
+        <option value="georgia">GEORGIA</option>
+        <option value="alaska">ALASKA</option>
+        </select><br><br>
+
+        <label for="country">COUNTRY:</label>
+        <select name="country" id="country">
+        <option value="unitedstates">UNITED STATES</option>
+        <option value="india">INDIA</option>
+        <option value="uk">UK</option>
+        <option value="africa">AFRICA</option>
+        </select><br><br>
+
+        <p>
+           HOBBIES: <label for="drawing">Drawing</label>
+            <input type="checkbox" class="same" name="drawing" value="drawing">
+            <label for="singing">Singing</label>
+            <input type="checkbox" class="same" name="singing" value="singing">
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" class="same" name="dancing" value="dancing"><br>
+            <label for="others">Others</label>
+            <input type="checkbox"  name="others" value="others">
+            <input type="text" id="special" name="othersname" value="">
+        </p><br>
+
+        QUALIFICATION:<table >
+            <tr>
+              <th>Examination</th>
+              <th>Marks</th> 
+            </tr>
+            <tr>
+              <td>Class X</td>
+              <td><label for="subject">English</label><br><input type="Number" id="english" name="english"></td>
+              <td><label for="subject">Hindi</label><br><input type="Number" id="hindi" name="hindi"></td>
+              <td><label for="subject">Mathematics</label><br><input type="Number" id="mathematics" name="mathematics"></td>
+              <td><label for="subject">Science</label><br><input type="Number" id="science" name="science"></td>
+              <td><label for="subject">Social</label><br><input type="Number" id="social" name="social"></td>
+            </tr>
+            <tr>
+              <td>Class XII</td>
+              <td><label for="subject">English</label><br><input type="Number" id="englishSub" name="english"></td>
+              <td><label for="subject">Hindi</label><br><input type="Number" id="hindiSub" name="hindi"></td>
+              <td><label for="subject">Mathematics</label><br><input type="Number" id="mathematicsSub" name="mathematics"></td>
+              <td><label for="subject">Science</label><br><input type="Number" id="scienceSub" name="science"></td>
+              <td><label for="subject">Social</label><br><input type="Number" id="socialSub" name="social"></td>
+              <td><label for="subject">Second Language</label><br><input type="Number" id="SLSub" name="second language"></td>
+            </tr>
+            
+          </table>
+
+          <p>
+            COURSE APPLIED:
+            <label for="bca">BCA</label>
+            <input type="radio" class="course" name="course" value="BCA">
+            <label for="bsc">BSC</label>
+            <input type="radio" class="course" name="course" value="BSC">
+            <label for="bcom">BCOM</label>
+            <input type="radio" class="course" name="course" value="BCOM">
+            <label for="ba">BA</label>
+            <input type="radio" class="course" name="course" value="BA">
+            
+            </p><br>
+          
+            <input type="checkbox" id="declare" name="declare" value="true">
+            <label for="declaration">I HERE BY AGREE ALL THE INFORMATION PUBLISHED IS CORRECT</label>
+        <button id="myAnchor" onclick="myFunction()">SUBMIT</button>
+        <button id="reset">RESET</button>
+ 
+ </form>
+ 
+ </div>
+ 
+ </body>
+
+</html>

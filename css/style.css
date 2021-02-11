@@ -1,0 +1,12 @@
+#english, #mathematics, #hindi, #science, #social{
+    width:40%;
+}
+table th{
+    padding-right: 45px;
+}
+table tr td{
+    padding: 3px;
+}
+
+
+
